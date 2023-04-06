@@ -1,0 +1,3 @@
+install mysql database give mysql password as root while installation
+open mysql console and then copy content from DB.txt file and then paste in mysql console to
+create database and then run code

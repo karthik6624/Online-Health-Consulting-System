@@ -1,0 +1,39 @@
+create database PatientApp;
+use PatientApp;
+
+create table adddoctor(username varchar(50) primary key,
+password varchar(50),
+emailid varchar(50),
+contact_no varchar(20),
+qualification varchar(50),
+experience_details varchar(50),
+hospital_name varchar(50),
+address varchar(50),
+speciality  varchar(250));
+
+create table patientsignup(username varchar(50),
+password varchar(50),
+contact_no varchar(20),
+email varchar(50),
+address varchar(50));
+
+
+create table appointments(appointment_id int,
+patient_name varchar(50),
+disease_description varchar(100),
+prescription varchar(100),
+appointment_date varchar(30),
+appointment_slot varchar(30),
+doctor_name varchar(50));
+
+create table donateorgans(username varchar(50),
+donating_organ varchar(100),
+description varchar(200),
+donate_date date);
+
+create table feedback(username varchar(50),
+feedback varchar(300),
+feedback_date date);
+
+
+
